@@ -1,0 +1,22 @@
+.counter-view {
+    /* background-color: tomato; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.all-btn {
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px salmon;
+    margin: 2px;
+    padding: 5px;
+}
+
+.all-btn:hover {
+    background-color: salmon;
+    transform: scale(1.2);
+}

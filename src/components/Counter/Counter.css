@@ -1,0 +1,29 @@
+.counter {
+    border: 2px rgb(245, 83, 59);
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+
+.counter-btn {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    border: 2px salmon;
+    margin: 2px;
+    padding: 5px;
+}
+
+.counter-btn:hover {
+    border: 2px saddlebrown;
+    background-color: red;
+    color: aliceblue;
+    /* transform: scale(1.2); */
+}
+
+.value {
+    color: red;
+}
+
+.value:hover {
+    color: whitesmoke;
+}
